@@ -126,14 +126,3 @@ s3 = "Hare Radha"
 s4 = "Hare Krishna"
 print(s3 +" "+ s4)
 '''
-<<<<<<< HEAD
-# Your local changes on the 'master' branch
-print("Hello from local machine")
-=======
-# The changes from the remote 'origin/master' branch
-print("Hello from the remote repository")
->>>>>>> FETCH_HEAD
-# Your local changes
-print("Hello from local machine")
-# The changes from the remote
-print("Hello from the remote repository")
