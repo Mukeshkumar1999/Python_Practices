@@ -32,7 +32,11 @@ tablePrint(2,1,11)
 '''
 # print fibbonacci series
 # 0,1,1,2,3,5,8,13....
+<<<<<<< HEAD
 '''
+=======
+
+>>>>>>> 4f7d43cd99cb1c61cbd88fc41b49a823a4b8dde2
 a = 0
 b = 1
 
@@ -41,6 +45,7 @@ for i in range(0,4):
     c = a+b;
     a = b
     b = c
+<<<<<<< HEAD
 '''
 # types of Variable in python
 '''
@@ -121,3 +126,14 @@ s3 = "Hare Radha"
 s4 = "Hare Krishna"
 print(s3 +" "+ s4)
 '''
+<<<<<<< HEAD
+# Your local changes on the 'master' branch
+print("Hello from local machine")
+=======
+# The changes from the remote 'origin/master' branch
+print("Hello from the remote repository")
+>>>>>>> FETCH_HEAD
+# Your local changes
+print("Hello from local machine")
+# The changes from the remote
+print("Hello from the remote repository")
