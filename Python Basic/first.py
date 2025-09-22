@@ -123,3 +123,37 @@ s3 = "Hare Radha"
 s4 = "Hare Krishna"
 print(s3 +" "+ s4)
 '''
+
+# how to list in python
+'''
+a = [10 , 20 , 30 , 50 ,60]
+
+for idx in range(0,len(a)):
+    if a[idx] == 10 :
+        print("digit found")
+    else:
+        print("digit not found")
+
+    print(a[idx])
+'''
+
+# find element index in present in list
+'''
+a = [10 , 20 , 30 , 50 ,60]
+target = 50
+def findIndex():
+     for idx in range(0,len(a)):
+        if(a[idx]==target):
+         return idx
+
+     return -1
+
+print(findIndex())
+'''
+
+# how to get input from user
+
+
+a = int(input("enter first num"))
+b = str(input("enter your name"))
+print("roll No",a,  b)
